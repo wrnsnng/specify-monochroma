@@ -1,0 +1,17 @@
+{
+  "repository": "@wrnsnng/specify-monochroma",
+  "rules": [
+    {
+      "name": "Design Tokens / Colors",
+      "path": "assets/styles/variables/colors.css",
+      "filter":{
+        "types": ["color"]
+      },
+      "parsers": [
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    }
+  ]
+}
